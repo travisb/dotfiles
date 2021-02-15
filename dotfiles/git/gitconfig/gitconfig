@@ -1,0 +1,19 @@
+[user]
+	name = Travis Boettcher
+	email = travis.boettcher@gmail.com
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
+[alias]
+	co = checkout
+	ci = commit
+
+[core]
+	excludesfile = /Users/travis/.gitignore_global
+	editor = /usr/bin/vim
+        editor = /usr/local/bin/nvim
+[commit]
+        template=~/.gitmessage

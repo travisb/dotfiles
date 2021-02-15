@@ -1,0 +1,23 @@
+[user]
+	name = Travis Boettcher
+	email = travis.boettcher@gmail.com
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
+[alias]
+	co = checkout
+	ci = commit
+
+[core]
+	excludesfile = /Users/travis/.gitignore_global
+	editor = /usr/bin/vi
+[commit]
+        template=~/.gitmessage
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
